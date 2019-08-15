@@ -16,7 +16,7 @@
 
   /* editor */
   "editor.cursorBlinking": "smooth",
-  "editor.cursorStyle": "block",
+  "editor.cursorStyle": "block-outline",
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.fontFamily": "Fira Code",
@@ -210,7 +210,6 @@
   "workbench.iconTheme": "Monokai Pro (Filter Octagon) Icons",
   "workbench.sideBar.location": "right",
   "workbench.colorCustomizations": {
-    "activityBarBadge.background": "#84FFFF",
     "list.activeSelectionForeground": "#84FFFF",
     "list.inactiveSelectionForeground": "#84FFFF",
     "list.highlightForeground": "#84FFFF",
@@ -219,7 +218,6 @@
     "textLink.foreground": "#84FFFF",
     "progressBar.background": "#84FFFF",
     "pickerGroup.foreground": "#84FFFF",
-    "tab.activeBorder": "#84FFFF",
     "notificationLink.foreground": "#84FFFF",
     "editorWidget.resizeBorder": "#84FFFF",
     "editorWidget.border": "#84FFFF",
@@ -230,7 +228,15 @@
     "menu.selectionForeground": "#84FFFF",
     "menubar.selectionForeground": "#84FFFF",
     "editor.findMatchBorder": "#84FFFF",
-    "selection.background": "#84FFFF40"
+    "selection.background": "#84FFFF40",
+    "activityBar.background": "#262626",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#606020",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "statusBar.background": "#0d0d0d",
+    "statusBarItem.hoverBackground": "#262626",
+    "statusBar.foreground": "#e7e7e7"
   },
   "materialTheme.accent": "Sky",
   "wrap-console-log-simple.useSemicolon": false,
@@ -247,7 +253,8 @@
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.renderWhitespace": "boundary"
+  "editor.renderWhitespace": "boundary",
+  "peacock.color": "#0d0d0d"
   // "vscode_custom_css.imports": ["file:///Users/schatzimedia/synthwave.css"],
   // "vscode_custom_css.policy": true,
 }
